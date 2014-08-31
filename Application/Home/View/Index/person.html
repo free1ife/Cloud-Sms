@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理-短信云轰炸</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+	<h1 class="page-header">欢迎回来<small>{$username}</small></h1>
+	<a href="add"><button class="btn btt-primary" type="button">添加手机</button></a>
+	<table class="table">
+		<foreach name="number" item="vo">
+			<tr>
+				<td>{$key}</td>
+				<td>{$vo.number}</td>
+				<td><a href="delete/number/{$vo.number}">删除</a></td>
+			</tr>
+		</foreach>
+	</table>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
