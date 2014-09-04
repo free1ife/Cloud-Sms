@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `number`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `number` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `number` int(11) NOT NULL,
+  `number` char(11) NOT NULL,
   `admin` char(20) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `number` (`number`)
