@@ -41,8 +41,3 @@ if($_GET['action'] == 'changepass' && isset($_GET['oldpass']) && isset($_GET['ne
 		echo '旧密码错误！';
 	}
 }
-//$result = $M->getAll("select number from number where admin = '".$M->deStr('admin')."'");
-//var_dump($result);
-
-
-
