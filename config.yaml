@@ -1,0 +1,6 @@
+name: CloudSms
+version: 1
+cron:
+    - description: CloudSmsCron
+      url: /cron.php
+      schedule: "* * * * *"
