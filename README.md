@@ -17,3 +17,7 @@ CloudSms
 ##演示站点
 
 [cloudsmsbombing.sinaapp.com](http://cloudsmsbombing.sinaapp.com/)
+
+##免责说明
+
+请勿用于非法，若用于非法与作者无关
