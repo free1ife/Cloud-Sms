@@ -18,6 +18,6 @@ CloudSms
 
 [cloudsmsbombing.sinaapp.com](http://cloudsmsbombing.sinaapp.com/)
 
-##免责说明
-
-请勿用于非法，若用于非法与作者无关
+##声明
+本程序遵循GPL v3开源协议
+[choosealicense.com/licenses/gpl-3.0](http://choosealicense.com/licenses/gpl-3.0/)
